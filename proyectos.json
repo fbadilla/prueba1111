@@ -1,0 +1,102 @@
+{
+    "Ampliaci\u00f3n en SE Frontera y Seccionamiento L\u00ednea 2x220 kV Encuentro-Lagunas": {
+        "numero": "1",
+        "tipo": "DIA",
+        "region": "Segunda",
+        "tipologia": "b2",
+        "titular": "TRANSELEC S.A...",
+        "inversion": "0,0013",
+        "fecha_presentacion": "13/01/2023",
+        "estado": "Desistido"
+    },
+    "Parque Solar Alfa": {
+        "numero": "2",
+        "tipo": "DIA",
+        "region": "RM",
+        "tipologia": "c",
+        "titular": "EE Land SpA",
+        "inversion": "10,0000",
+        "fecha_presentacion": "16/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "Frigor\u00edfico Chill\u00e1n Viejo ? Frut\u00edcola Olmu\u00e9": {
+        "numero": "3",
+        "tipo": "DIA",
+        "region": "D\u00e9cimosexta",
+        "tipologia": "o7",
+        "titular": "Frut\u00edcola Olmu\u00e9 SpA",
+        "inversion": "4,6508",
+        "fecha_presentacion": "16/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "MODIFICACI\u00d3N CAV MEJORA PRODUCTIVA DE SUELO PROYECTO PLANTA SOLAR SAN JUAN": {
+        "numero": "4",
+        "tipo": "DIA",
+        "region": "D\u00e9cimosexta",
+        "tipologia": "u",
+        "titular": "Planta Solar San Juan SpA",
+        "inversion": "0,0850",
+        "fecha_presentacion": "16/02/2023",
+        "estado": "En Admisi\u00f3n"
+    },
+    "Ampliaci\u00f3n Planta de Tratamiento de Aguas Servidas Etapa 3": {
+        "numero": "5",
+        "tipo": "DIA",
+        "region": "RM",
+        "tipologia": "o4",
+        "titular": "BCC S.A.",
+        "inversion": "3,0000",
+        "fecha_presentacion": "15/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "Extracci\u00f3n de Material Integral desde Pozo Lastrero Parcela 27, Comuna de La Serena": {
+        "numero": "6",
+        "tipo": "DIA",
+        "region": "Cuarta",
+        "tipologia": "i5",
+        "titular": "ARIDOS ACONCAGUA S.A.",
+        "inversion": "0,2000",
+        "fecha_presentacion": "15/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "Conjunto Arm\u00f3nico ATID": {
+        "numero": "7",
+        "tipo": "DIA",
+        "region": "RM",
+        "tipologia": "h1",
+        "titular": "Fundacion Educacional ATID",
+        "inversion": "302,8200",
+        "fecha_presentacion": "15/02/2023",
+        "estado": "En Admisi\u00f3n"
+    },
+    "Parque Fotovoltaico Chirihue": {
+        "numero": "8",
+        "tipo": "DIA",
+        "region": "Cuarta",
+        "tipologia": "c",
+        "titular": "PFV CHIRIHUE SPA",
+        "inversion": "66,0000",
+        "fecha_presentacion": "14/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "Planta de Frutas Agrovic": {
+        "numero": "9",
+        "tipo": "DIA",
+        "region": "Sexta",
+        "tipologia": "o7",
+        "titular": "Frutas Agrovic Ltda",
+        "inversion": "10,0000",
+        "fecha_presentacion": "14/02/2023",
+        "estado": "Ingresados Art.94 RSEIA"
+    },
+    "Autorizaci\u00f3n Zonas de Acopio Transitorio de Mercanc\u00edas Peligrosas": {
+        "numero": "10",
+        "tipo": "DIA",
+        "region": "Quinta",
+        "tipologia": "\u00f11",
+        "titular": "San Antonio Terminal Internacional S.A.",
+        "inversion": "0,2556",
+        "fecha_presentacion": "14/02/2023",
+        "estado": "En Calificaci\u00f3n"
+    }
+}

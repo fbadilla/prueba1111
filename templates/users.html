@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          <title>Consume Rest Api</title>
+    </head>
+    <body>
+        <div class="container-fluid p-2 bg-dark text-white text-center d-flex align-items-center">
+            <h1 class="flex-grow-1 mb-0">Bike Santiago</h1>
+            <form method="post" action="{% url 'guardar_estaciones' %}">
+                {% csrf_token %}
+                <input type="submit" class="--bs-dark-border-subtle ms-2" value="Guardar estaciones">
+            </form>
+        </div>
+        
+        <div class="container mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Direccion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ user.name }}</td>
+                        <td>{{ user.extra.address }}</td>
+                    </tr>
+                    {% endfor %}    
+                </tbody>
+            </table>
+            {% if users.has_other_pages %}
+            <div class="d-flex justify-content-end mx-2">
+                {% if users.has_previous %}
+                <a href="?page={{ users.previous_page_number }}" class="btn btn-secondary me-2">&lsaquo; Anterior</a>
+                {% endif %}
+        
+                {% if users.has_next %}
+                <a href="?page={{ users.next_page_number }}" class="btn btn-secondary">Siguiente &rsaquo;</a>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+
+        <button type="button" onclick="window.location.href='{% url 'obtener_informacion' %}'">Obtener información</button>
+
+
+        
+    </body>
+</html>
